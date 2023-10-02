@@ -8,7 +8,7 @@ $(document).ready(function () {
     });
 
 
-$('.item, .new-items, .new-items2, .item-mobile').click(function () {
+$('.item, .new-items, .new-items2, .item-mobile ').click(function () {
 console.log('funciona')
     $('.overlay').fadeIn();
     $('.modal').fadeIn();
@@ -16,6 +16,6 @@ console.log('funciona')
     return false;
 });
 
-
-
 });
+
+
